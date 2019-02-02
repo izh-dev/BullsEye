@@ -12,6 +12,7 @@
 		5AD4E93C22047C32008B1759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD4E93A22047C32008B1759 /* Main.storyboard */; };
 		5AD4E93E22047C34008B1759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD4E93D22047C34008B1759 /* Assets.xcassets */; };
 		5AD4E94122047C34008B1759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD4E93F22047C34008B1759 /* LaunchScreen.storyboard */; };
+		5AD4E9492205DE9E008B1759 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5AD4E9482205DE9E008B1759 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5AD4E93D22047C34008B1759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AD4E94022047C34008B1759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AD4E94222047C34008B1759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD4E9482205DE9E008B1759 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,8 @@
 		5AD4E92A22047C31008B1759 = {
 			isa = PBXGroup;
 			children = (
+				5AD4E94A2205DFEC008B1759 /* screens */,
+				5AD4E9482205DE9E008B1759 /* README.md */,
 				5AD4E93522047C32008B1759 /* BullsEye */,
 				5AD4E93422047C32008B1759 /* Products */,
 			);
@@ -62,6 +66,13 @@
 				5AD4E94222047C34008B1759 /* Info.plist */,
 			);
 			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		5AD4E94A2205DFEC008B1759 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			files = (
 				5AD4E94122047C34008B1759 /* LaunchScreen.storyboard in Resources */,
 				5AD4E93E22047C34008B1759 /* Assets.xcassets in Resources */,
+				5AD4E9492205DE9E008B1759 /* README.md in Resources */,
 				5AD4E93C22047C32008B1759 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
